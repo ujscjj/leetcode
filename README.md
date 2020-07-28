@@ -5,11 +5,19 @@ leetcdode刷题总结
 
 <a href='./construct-binary-tree.md'>构造二叉树问题</a>
 
+<a href='./dfs.md'>深度优先搜索算法</a>
+
+
+
 <a href='./string-problems.md'>字符串问题</a>
 
 <a href='./trie.md'>前缀树问题</a>
 
 <a href='./dynamic-programming.md'>动态规划</a>
+
+<a href='./greedy.md'>贪婪策略</a>
+
+
 
 
 
