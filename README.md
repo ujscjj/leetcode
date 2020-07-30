@@ -5,7 +5,11 @@ leetcdode刷题总结
 
 <a href='./construct-binary-tree.md'>构造二叉树问题</a>
 
+<a href='./balanced-tree.md'>平衡二叉树问题</a>
+
 <a href='./dfs.md'>深度优先搜索算法</a>
+
+<a href='./island.md'>小岛问题</a>
 
 
 
@@ -19,13 +23,29 @@ leetcdode刷题总结
 
 
 
+<a href='./bit.md'>位运算</a>
 
+<a href='./gcd.md'>最大公约数</a>
+
+<a href='./union-find.md'>并查集</a>
+
+<a href='./prefix.md'>前缀和</a>
+
+<a href='./schedule.md'>日程安排问题</a>
+
+<a href='./delete.md'>字典序列删除</a>
 
 <a href='./huffman-encode-and-run-length-encode.md'>哈夫曼编码和游程编码</a>
 
 <a href='./bloom-filter.md'>布隆过滤器</a>
 
-<a href='./schedule.md'>日程安排问题</a>
+
+
+
+
+
+
+
 
 
 

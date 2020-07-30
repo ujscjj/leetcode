@@ -4,11 +4,10 @@
 
   - 前中后序列遍历递归算法比较简单；
   - 前序遍历迭代算法稍难，需要借助栈(出栈时再做输出，先进后出)；
-
   - 中序遍历迭代算法再加些难度，关键点在于：针对每一个结点，出栈时判断结点是否有右子节点，若有，则重复上述步骤；
   - 后序遍历迭代算法则于前序遍历相同，最后逆序即可。
 
-  题目：[144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) 
+  题目：[144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
 - #### 层次遍历的迭代算法
 
@@ -16,7 +15,7 @@
 
   题目：[102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
-
+  
 
 #### 相关题目
 
