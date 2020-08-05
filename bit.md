@@ -18,7 +18,7 @@
 
 [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 
-[137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/) 状态自自动机
+[137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/) 状态自动机
 
 [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)
 
