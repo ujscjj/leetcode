@@ -110,6 +110,14 @@
 
 
 
+时间效率和空间效率的平衡：
+
+> 以空间换时间，值得注意的是，“以空间换时间”的策略并不一定都是可行的，在面试的时候要具体问题具体分析。
+
+49.[丑数](https://leetcode-cn.com/problems/chou-shu-lcof) 
+
+
+
 知识迁移能力：
 
 55.[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof) 
@@ -117,6 +125,36 @@
 57.[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof) 
 
 58-I.[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof) 
+
+59-II.[ 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof) 
+
+59-I.[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof) 
+
+
+
+抽象建模能力：
+
+> 有些面试官喜欢从日常生活中抽取提炼问题来考察应聘者是否能够建立数学模型并解决问题。要想解决这类问题，应聘者除了需要具备扎实的数学基础和编程能力，还需要具有敏锐的洞察力和丰富的想象力。
+>
+> 建模的第一步是选择合理的数据结构来表述问题；
+>
+> 建模的第二部是分析模型中的内在规律，并用编程语言表述这种规律。
+
+60.[ n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof) 
+
+61.[ 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof) 
+
+63.[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof) 
+
+
+
+两个面试案例：
+
+68-II.[二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
+
+
+
+
 
 
 
