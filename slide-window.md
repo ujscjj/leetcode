@@ -40,20 +40,28 @@ for 右指针 in 可迭代对象:
 
 [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 
+[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+
 [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
-[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+[1004. 最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 
 [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
 
-[904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/)
+[904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) 
+
+> 集合和字典的基本操作：
+>
+> x=set() x.add() x.discard(); 
+>
+> dic={} dic[key]=dic.get(key,0)+1 del dic[key]
+
+[1234. 替换子串得到平衡字符串](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/)
+
+
 
 [930. 和相同的二元子数组](https://leetcode-cn.com/problems/binary-subarrays-with-sum/)
 
 [992. K 个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
-
-[1004. 最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
-
-[1234. 替换子串得到平衡字符串](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/)
 
 [1248. 统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)
