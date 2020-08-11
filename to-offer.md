@@ -1,14 +1,20 @@
 # 剑指offer
 
+### 面试的基本流程
+
 共享桌面远程面试
 
-> 思考清楚再开始编码；能够进行单元测试(测试在前、开发灾后的程序员太稀缺了)；面试官最关心的是应聘者的编程习惯及调试能力。
+> 思考清楚再开始编码：因为在没有形成清晰的思路之前写出的代码通常会漏洞百出，且会越改越乱；
+>
+> 能够进行单元测试：**测试在前、开发在后**的程序员太稀缺了；面试官最关心的是应聘者的编程习惯及调试能力。
 
+行为面试：
 
+> 在介绍到项目经验时，应聘者不必详述项目的背景，而要突出介绍自己完成的工作及取得的成绩。
 
 技术面试
 
-> 遇到复杂的问题，可以通过画图、举例子分析和分解复杂问题先理清思路再动手编程；
+> 遇到复杂的问题，可以通过**画图、举例子分析和分解复杂问题先理清思路再动手编程**；
 >
 > 还应该不断优化时间效率和空间效率；
 >
@@ -16,13 +22,17 @@
 >
 > 
 >
-> 1.扎实的基础知识：面试官喜欢问链表和二叉树相关问题，大部分公司注重查找和排序算法(二分查找、快速排序、归并排序)。
+> 1.扎实的基础知识：包括编程语言、数据结构和算法；面试官喜欢问链表和二叉树相关问题，大部分公司注重查找和排序算法(**二分查找、快速排序、归并排序**)。
 >
-> 2.高质量的代码：面试官总会关注边界条件、特殊输入等看似细枝末节但实则至关重要的地方。
+> 2.高质量的代码：**面试官总会关注边界条件、特殊输入等看似细枝末节但实则至关重要的地方**。
 >
 > 3.清晰的思路：首先，先举几个例子让自己理解问题；其次，可以试着用图形表示抽象的数据结构；最后，可以试着把复杂的问题分解为若干简单的子问题，再一一解决。如很多基于递归的思路，包括分治和动态规划。
 
+应聘者提问
 
+> 不要问薪水，不要立即打听面试结果；可以问问部门的具体业务、新人培养计划、工作环境等。
+
+### 面试需要的基础知识
 
 数据结构
 
@@ -31,8 +41,6 @@
 > 栈是一个与递归紧密相关的数据结构，队列在图（包括树）的宽度优先遍历中需要用到，因此也要掌握这两种数据结构。
 
 09.[ 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) 的拓展—》两个队列实现栈
-
-
 
 算法和数据操作
 
@@ -52,11 +60,33 @@
 
 13.[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof) 
 
+14-I.[剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof) 
+
 14-II.[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)
 
 15.[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) (x&(x-1)表示将最右边的1变为0；x&(-x)表示只保留最右边的1）
 
+### 高质量的代码
 
+代码的完整性：
+
+> **实现基本功能、边界值、无效的输入**：整数溢出、递归的基线情况要确保能够取到边界值、无效输入;
+>
+> 处理错误的3中方法：返回0/False、设置全局变量、异常。
+
+**17.**[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)
+
+**18.**[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) 
+
+> 原著中附加了待删除结点的指针，要求时间复杂度O(1)：将下一个节点的值赋值给该节点，并把下一个节点删除，需考虑待删除节点是否为尾节点以及该链表是否只有一个节点。
+>
+> 删除重复节点：输入为空指针、待删除节点位于链表头部/中间/尾部、链表中无重复节点/都是重复节点。
+
+**19.**[正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)
+
+**20.**[表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
+
+**21.**[调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof) 
 
 代码的鲁棒性
 
@@ -66,7 +96,7 @@
 
 26.[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof) 
 
-
+### 解决面试题的思路
 
 画图让抽象问题具体化
 
@@ -78,15 +108,15 @@
 
 29.[顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof) 
 
-
-
 举例让抽象问题具体化
 
 > 当一眼看不出问题中隐藏的规律的时候，我们可以试着用一两个具体的例子模拟操作的过程，这样说不定就能通过具体的例子找到抽象的规律。
+>
+> 具体的例子有有可以帮助我们向面试官解释算法思路。
 
 31.[栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof) 
 
-
+**33.**[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof) 
 
 分解让复杂问题简单化
 
@@ -94,9 +124,11 @@
 
 35.[复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof) 
 
-36.[二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof) 
+**36.**[二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof) 
 
+**37.**[ 序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof) 
 
+### 优化时间和空间效率
 
 时间效率
 
@@ -146,7 +178,7 @@
 
 63.[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof) 
 
-67.[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
+**67.**[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
 
 
 
